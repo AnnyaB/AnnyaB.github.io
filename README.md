@@ -5,7 +5,7 @@
 
 \[[Live Homepage](https://annyab.github.io/)\]  \[[日本語](./README_ja.md)\]
 
-This repository contains the source code for **Riya Basak's academic homepage**.
+This repository contains the source code for my **academic homepage**.
 
 The site uses the open-source [Minimal Light](https://github.com/yaoyao-liu/minimal-light) Jekyll theme and is deployed with GitHub Pages.
 
