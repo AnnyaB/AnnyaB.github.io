@@ -1,55 +1,111 @@
-# Riya Basak
+# Academic Homepage
 
-**World Models · Self-Supervised Predictive Representation Learning · Safe Sequential Decision-Making · Embodied AI**
+[![Minimal Light](https://img.shields.io/badge/theme-Minimal%20Light-2f6f9f?style=flat-square)](https://github.com/yaoyao-liu/minimal-light)
+[![GitHub Pages](https://img.shields.io/badge/deployment-GitHub%20Pages-222?style=flat-square&logo=github)](https://annyab.github.io/)
 
-[Academic Homepage](https://annyab.github.io/) · [CV](./assets/files/riya-basak-cv.pdf) · [GitHub](https://github.com/AnnyaB) · [LinkedIn](https://www.linkedin.com/in/riya-b-506346315/)
+\[[Live Homepage](https://annyab.github.io/)\]  \[[日本語](./README_ja.md)\]
 
-## Research
+This repository contains the source code for **Riya Basak's academic homepage**.
 
-My research focuses on **world models for general, reliable intelligence**: learning structured latent state, transferable dynamics, causal structure, uncertainty, and action consequences so that agents can reason about how the world changes before acting.
+The site uses the open-source [Minimal Light](https://github.com/yaoyao-liu/minimal-light) Jekyll theme and is deployed with GitHub Pages.
 
-I am particularly interested in four connected questions:
+## Features
 
-- **World Models & Transferable Dynamics** — how to separate persistent state, nuisance variation, and reusable mechanisms so learned dynamics transfer across changes in context, appearance, embodiment, and interaction horizon.
-- **Self-Supervised Predictive Representation Learning** — how to learn representations that preserve structure and dynamics without depending on dense supervision or shortcut correlations.
-- **Safe Sequential Decision-Making** — how model-based reasoning, uncertainty estimation, admissibility constraints, and counterfactual analysis can support safer action selection.
-- **Embodied AI** — how learned world dynamics can support agents that anticipate physical and social consequences before acting.
+- Minimal academic homepage layout
+- Jekyll-based GitHub Pages deployment
+- Responsive desktop and mobile presentation
+- Light and dark mode support
+- Markdown-based page content
+- Search-engine metadata through `_config.yml`
+- Local CV asset linked directly from the homepage
+- Modular research content through `_includes`
 
-## Selected Research
+## Project Architecture
 
-### Mitigating Shortcut Learning in Brain Tumour MRI Classification
+```text
+.
+├── _includes/
+│   └── research.md              # research outputs and ongoing projects
+├── assets/
+│   └── files/
+│       └── riya-basak-cv.pdf    # curriculum vitae linked from the homepage
+├── .gitignore
+├── Gemfile                      # Ruby/Jekyll dependencies
+├── README.md                    # repository documentation (English)
+├── README_ja.md                 # repository documentation (Japanese)
+├── _config.yml                  # identity, links, SEO metadata, theme settings
+└── index.md                     # main academic homepage content
+```
 
-Proposed **Pathology-Focused Disentanglement (PFD)** and **Guided Semantic Token Evolution (GSTE)** for shortcut-learning mitigation without segmentation masks in a ResNet50V2–RViT hybrid.
+## Deployment
 
-Across the fixed benchmark, models reached **98.52–99.22% test accuracy** and **98.49–99.20% macro-F1**. Attribution analysis revealed a stronger distinction than accuracy alone: reviewed **PFD–GSTE-B** predictions were tumour-focused in about **90%** of cases, compared with about **70%** for **PFD–GSTE-A**.
+The repository is published as a GitHub Pages user site:
 
-[Preprint](https://doi.org/10.5281/zenodo.21903347) · [Code](https://github.com/AnnyaB/HybridResNet50V2-RViT)
+```text
+https://annyab.github.io/
+```
 
-### LAADAN-AC: Admissibility-Aware Offline Reinforcement Learning
+The site is built from the `main` branch using the repository root.
 
-Developed **Lagrangian Admissibility-Aware Deep Action-Nudging Actor-Critic (LAADAN-AC)** for safer offline treatment-policy learning, combining hard admissibility masking, twin critics, conservative critic regularisation, expert-policy regularisation, smoothness shaping, and Lagrangian cost control.
+## Theme Configuration
 
-Under the matched ICU-Sepsis benchmark protocol, LAADAN-AC achieved **0.7931 ± 0.0007 survival/return**, **0.0000 inadmissibility**, and **0.9525 expert-action match**, producing the strongest return–safety trade-off among the evaluated baselines.
+The homepage uses Minimal Light as a remote Jekyll theme:
 
-[Code](https://github.com/AnnyaB/laadan-ac)
+```yaml
+remote_theme: yaoyao-liu/minimal-light
+```
 
-## Current Directions
+Core site metadata and links are configured in `_config.yml`, including:
 
-### Same Rules, New Worlds
+```yaml
+title: Riya Basak
+position: Prospective Integrated MS–PhD Student in Artificial Intelligence
+affiliation: University of Hertfordshire
+email: riyabasak639 (at) gmail.com
 
-Developing a **mechanism-transport world model** for compositional and interventional generalisation. The central problem is transfer: predictive models can perform well in-distribution while failing when the same underlying dynamics appear under new contexts, appearances, embodiments, or longer interaction horizons.
+cv_link: /assets/files/riya-basak-cv.pdf
+github_link: https://github.com/AnnyaB
+linkedin: https://www.linkedin.com/in/riya-b-506346315/
+```
 
-The current direction separates **persistent latent state** from **transferable dynamics**, enforces consistency across nuisance shifts, and remains sensitive to genuine changes in the underlying causal mechanism.
+## Editing the Homepage
 
-### From World Models to Embodied Social Robots
+The principal content files are:
 
-Building a LeWM- and DreamerV3-based world-model research stack for agents that reason over predicted physical and social futures.
+- `index.md` — biography, research interests, research direction, education, and recent experience.
+- `_includes/research.md` — preprint, manuscript, completed research, and ongoing world-model projects.
+- `_config.yml` — site identity, academic links, profile image, SEO metadata, and theme settings.
+- `assets/files/riya-basak-cv.pdf` — the CV opened by the homepage CV icon.
 
-This work includes **KCON (Kinetic Counterfactual Oversight Nexus)**, a compact executive layer for comparing imagined action consequences, handling uncertainty and novelty, and supporting failure-aware action selection with minimal intervention.
+Because the site uses a remote theme, the upstream Minimal Light layout and styling are inherited without duplicating the complete theme source in this repository.
 
-## Academic Background
+## Local Preview
 
-**BSc (Hons) Computer Science with Artificial Intelligence — First Class Honours**  
-University of Hertfordshire, 2026  
-Cumulative GPA: **4.38/4.50** · Level 6 GPA: **4.44/4.50**
+With Ruby and Bundler installed:
 
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+Then open:
+
+```text
+http://localhost:4000
+```
+
+## Acknowledgements
+
+This homepage is built with [Yaoyao Liu's Minimal Light](https://github.com/yaoyao-liu/minimal-light) academic Jekyll theme.
+
+The sparse academic-homepage organization was also informed by [Dongkeun Yoon's public homepage repository](https://github.com/MattYoon/mattyoon.github.io), which uses the same Minimal Light theme. No personal, academic, publication, or biographical content from that repository is used here.
+
+Minimal Light itself acknowledges and draws from the following open-source projects:
+
+- [pages-themes/minimal](https://github.com/pages-themes/minimal)
+- [orderedlist/minimal](https://github.com/orderedlist/minimal)
+- [al-folio](https://github.com/alshedivat/al-folio)
+
+## License and Theme Attribution
+
+Theme code remains subject to the licensing terms of the upstream [Minimal Light repository](https://github.com/yaoyao-liu/minimal-light). Content and repository-specific assets in this site remain attributable to their respective owners.
