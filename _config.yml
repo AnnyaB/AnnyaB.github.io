@@ -1,23 +1,21 @@
-# Basic Information
+# Identity
 title: Riya Basak
-position: AI Researcher · First-Class Computer Science with AI Graduate
+position: Prospective Integrated MS–PhD Student in Artificial Intelligence
 affiliation: University of Hertfordshire
 affiliation_link: https://www.herts.ac.uk/
 email: riyabasak639 (at) gmail.com
 
-# Search Engine Optimization (SEO)
-keywords: Riya Basak, world models, self-supervised learning, safe reinforcement learning, embodied AI, reliable AI, representation learning
-description: Riya Basak — research in world models, self-supervised representation learning, safe reinforcement learning, and embodied AI.
+# Search
+keywords: Riya Basak, world models, self-supervised learning, predictive representation learning, causal world models, safe reinforcement learning, embodied AI
+description: Riya Basak — world models, self-supervised predictive representation learning, transferable dynamics, safe sequential decision-making, and embodied AI.
 canonical: https://annyab.github.io/
 
-# Links
-cv_link: https://drive.google.com/file/d/1Nklg9SGnpDHNhWLeBvmNehLfuCtoRCoF/view
+# Academic links
+cv_link: /assets/files/riya-basak-cv.pdf
 github_link: https://github.com/AnnyaB
 linkedin: https://www.linkedin.com/in/riya-b-506346315/
 
-# Use the GitHub profile image initially.
-# For an even stronger academic presentation, replace this later with:
-# avatar: ./assets/img/profile.jpg
+# Profile image
 avatar: https://avatars.githubusercontent.com/u/176838791?v=4
 favicon: https://avatars.githubusercontent.com/u/176838791?v=4
 favicon_dark: https://avatars.githubusercontent.com/u/176838791?v=4
