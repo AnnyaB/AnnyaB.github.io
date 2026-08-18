@@ -10,6 +10,12 @@ My research focus is **world models for general, reliable intelligence**: learni
 
 My completed work has examined **shortcut learning in medical vision** and **admissibility-constrained offline reinforcement learning**. My current direction is toward **self-supervised predictive world models, compositional and causal generalisation, counterfactual safety, and embodied decision-making**.
 
+## News
+
+- **Aug 2026** — Released the preprint *Mitigating Shortcut Learning in Brain Tumour MRI Classification* on Zenodo.
+- **Jun 2026** — LAADAN-AC manuscript entered review.
+- **May 2026** — Graduated from the University of Hertfordshire with First Class Honours in BSc (Hons) Computer Science with Artificial Intelligence.
+
 ## Research Interests
 
 - **World Models & Transferable Dynamics** — structured latent state, causal and compositional dynamics, long-horizon prediction, and transfer across changes in context, appearance, and embodiment.
@@ -29,7 +35,7 @@ My long-term goal is to develop AI systems that can **learn reusable models of h
 Cumulative GPA: **4.38/4.50** · Level 6 GPA: **4.44/4.50**  
 **Ranked 1st in the Final Year Project across AI and all assessed streams; ranked 1st in the AI research-project module.**
 
-## Recent Experience
+## Recent Research Experience
 
 **Mercor** — Artificial Intelligence Researcher, Mathematical Reasoning · Sep–Nov 2025  
 Investigated failure modes in AI mathematical reasoning by formalising assumptions, proof obligations, case splits, edge cases, and recurrent proof errors into structured evaluation criteria.
