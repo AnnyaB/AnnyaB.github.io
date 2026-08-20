@@ -12,6 +12,7 @@ My completed work has examined **shortcut learning in medical vision** and **adm
 
 ## News
 
+- **Aug 2026** — Awarded the **University Graduation Prize** by the Board of Examiners for the **highest achievement at Level 6** in BSc (Hons) Computer Science (Artificial Intelligence), University of Hertfordshire.
 - **Aug 2026** — Released the preprint *Mitigating Shortcut Learning in Brain Tumour MRI Classification* on Zenodo.
 - **Jun 2026** — LAADAN-AC manuscript entered review.
 - **May 2026** — Graduated from the University of Hertfordshire with First Class Honours in BSc (Hons) Computer Science with Artificial Intelligence.
