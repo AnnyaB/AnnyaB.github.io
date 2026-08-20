@@ -35,6 +35,11 @@ My long-term goal is to develop AI systems that can **learn reusable models of h
 Cumulative GPA: **4.38/4.50** · Level 6 GPA: **4.44/4.50**  
 **Ranked 1st in the Final Year Project across AI and all assessed streams; ranked 1st in the AI research-project module.**
 
+## Honours & Awards
+
+**University Graduation Prize — Rank 1 at Level 6**, University of Hertfordshire, 2026  
+Awarded by the Board of Examiners for the **highest achievement at Level 6** in the BSc (Hons) Computer Science (Artificial Intelligence) programme.
+
 ## Recent Research Experience
 
 **Mercor** — Artificial Intelligence Researcher, Mathematical Reasoning · Sep–Nov 2025  
