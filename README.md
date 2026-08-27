@@ -27,6 +27,8 @@ The site uses the open-source [Minimal Light](https://github.com/yaoyao-liu/mini
 ├── _includes/
 │   └── research.md              # research outputs and ongoing projects
 ├── assets/
+|   |── img/
+|   |   └── profile-image        # profile photo
 │   └── files/
 │       └── riya-basak-cv.pdf    # curriculum vitae linked from the homepage
 ├── .gitignore
