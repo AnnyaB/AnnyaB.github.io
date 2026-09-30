@@ -1,6 +1,6 @@
 ## Research
 
-### Preprint & Manuscript
+### Preprint & Accepted Paper
 
 1. **[Mitigating Shortcut Learning in Brain Tumour MRI Classification](https://doi.org/10.5281/zenodo.21903347)**  
    **Riya Basak**  
@@ -9,7 +9,7 @@
 
 2. **LAADAN-AC: Beyond Survival in Admissible Offline Treatment-Policy Learning**  
    **Riya Basak**, Manal Helal  
-   *Manuscript under review, 2026* · [Code](https://github.com/AnnyaB/laadan-ac)  
+   *Accepted for oral presentation — ICATAS 2026* · [Code](https://github.com/AnnyaB/laadan-ac)  
    Extended an admissibility-aware offline actor-critic framework with hard action masking, twin critics, conservative critic regularisation, expert-policy regularisation, smoothness shaping, Lagrangian cost control, component ablations, safety-failure analysis, and a cross-domain portability check.
 
 ### Selected Research Projects

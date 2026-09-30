@@ -1,0 +1,219 @@
+---
+---
+
+@import "minimal-light";
+
+/* Polished academic-portfolio refinements layered on top of Minimal Light. */
+:root {
+  --rb-ink: #182231;
+  --rb-muted: #657184;
+  --rb-accent: #245b8f;
+  --rb-accent-strong: #173e67;
+  --rb-line: #e4eaf1;
+  --rb-surface: rgba(255, 255, 255, 0.86);
+  --rb-soft: #f5f8fb;
+  --rb-shadow: 0 12px 34px rgba(30, 55, 80, 0.08);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: radial-gradient(circle at 12% 8%, rgba(67, 119, 165, 0.055), transparent 30rem), #ffffff;
+  color: var(--rb-ink);
+  font-size: 15.5px;
+  line-height: 1.7;
+  letter-spacing: -0.004em;
+}
+
+.wrapper { width: 1080px; }
+
+header {
+  width: 258px;
+  padding-top: 4.6em;
+}
+
+section {
+  width: 760px;
+  padding-top: 4.55em;
+  padding-bottom: 70px;
+}
+
+.image.avatar img {
+  width: 152px;
+  padding: 0;
+  border: 1px solid var(--rb-line);
+  box-shadow: var(--rb-shadow);
+}
+
+header h1 {
+  margin: 20px 0 10px;
+  color: var(--rb-ink);
+  font-size: 2rem;
+  font-weight: 750;
+  letter-spacing: -0.035em;
+}
+
+position {
+  display: inline-block;
+  max-width: 230px;
+  color: var(--rb-muted);
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+email, autocolor { color: var(--rb-muted); }
+
+.social-icons { margin-top: 2px; }
+
+.social-icons a {
+  width: 2.35rem;
+  height: 2.35rem;
+  margin-right: 0.38rem !important;
+  border: 1px solid var(--rb-line);
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--rb-accent) !important;
+  line-height: 2.35rem;
+  box-shadow: 0 4px 14px rgba(30, 55, 80, 0.045);
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.social-icons a:hover {
+  background: #ffffff;
+  border-color: #cbd8e5;
+  color: var(--rb-accent-strong) !important;
+  box-shadow: 0 8px 20px rgba(30, 55, 80, 0.10);
+  transform: translateY(-2px);
+}
+
+h2 {
+  margin: 42px 0 18px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid var(--rb-line);
+  color: var(--rb-accent-strong);
+  font-size: 1.36rem;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+
+h2:first-child { margin-top: 0; }
+
+h3, h4, h5, h6 {
+  color: var(--rb-accent-strong);
+  font-weight: 700;
+  letter-spacing: -0.012em;
+}
+
+h3 {
+  margin-top: 28px;
+  margin-bottom: 14px;
+  font-size: 1.05rem;
+}
+
+p, ul, ol { margin-bottom: 17px; }
+
+section ul, section ol { padding-left: 1.32rem; }
+
+section li { margin-bottom: 8px; }
+
+section ol > li {
+  margin: 0 0 16px;
+  padding: 16px 18px 15px;
+  border: 1px solid var(--rb-line);
+  border-radius: 12px;
+  background: var(--rb-surface);
+  box-shadow: 0 6px 22px rgba(30, 55, 80, 0.045);
+}
+
+section ol > li::marker {
+  color: var(--rb-accent);
+  font-weight: 700;
+}
+
+strong {
+  color: #142032;
+  font-weight: 700;
+}
+
+a {
+  color: var(--rb-accent);
+  text-underline-offset: 3px;
+  transition: color 140ms ease;
+}
+
+a:hover { color: var(--rb-accent-strong); }
+
+.award-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  margin-top: 2px;
+  padding: 7px 11px;
+  border: 1px solid #d8e2ec;
+  border-radius: 999px;
+  background: var(--rb-soft);
+  color: var(--rb-accent-strong);
+  font-size: 0.9rem;
+  font-weight: 650;
+}
+
+.award-link:hover {
+  border-color: #bdccdc;
+  background: #eef4fa;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --rb-ink: #e9eef5;
+    --rb-muted: #aeb9c8;
+    --rb-accent: #72b8ea;
+    --rb-accent-strong: #91c9ef;
+    --rb-line: #343b49;
+    --rb-surface: rgba(36, 39, 50, 0.72);
+    --rb-soft: #292f3b;
+    --rb-shadow: 0 12px 34px rgba(0, 0, 0, 0.18);
+  }
+
+  body {
+    background: radial-gradient(circle at 12% 8%, rgba(75, 151, 205, 0.09), transparent 30rem), #20212b;
+    color: var(--rb-ink);
+  }
+
+  header h1, strong { color: var(--rb-ink); }
+  .social-icons a { background: rgba(37, 40, 51, 0.84); }
+
+  .social-icons a:hover {
+    background: #292d38;
+    border-color: #465267;
+  }
+
+  .award-link:hover {
+    background: #303744;
+    border-color: #4a596c;
+  }
+}
+
+@media print, screen and (max-width: 960px) {
+  .wrapper {
+    width: auto;
+    max-width: 820px;
+    margin: 0 auto;
+  }
+
+  header, section, footer { width: auto; }
+  header { padding: 28px 0 12px; }
+
+  section {
+    margin: 0;
+    padding: 24px 0 50px;
+    border: 0;
+  }
+
+  position { max-width: none; }
+}
+
+@media print, screen and (max-width: 480px) {
+  body { padding: 18px; }
+  h2 { margin-top: 34px; }
+  section ol > li { padding: 14px 15px; }
+}

@@ -1,0 +1,242 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta name="description" content="{{ site.description | strip_newlines }}">
+  <title>{{ site.name }}</title>
+
+  <link rel="icon" type="image/png" href="{{ '/assets/img/riya-profile-avatar.png' | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
+  <link href="{{ '/css/index.css' | relative_url }}" rel="stylesheet">
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero-body container is-max-desktop">
+      <div class="columns is-vcentered">
+        <div class="column is-4">
+          <div class="portrait">
+            <img src="{{ '/assets/img/riya-profile-avatar.png' | relative_url }}" alt="Riya Basak">
+          </div>
+        </div>
+
+        <div class="column">
+          <h1 class="title"><b>{{ site.name }}</b></h1>
+          <div class="content has-text-justified">
+            {{ site.description | markdownify }}
+
+            <div class="buttons">
+              <a class="external-link button is-light" href="{{ '/assets/files/riya-basak-cv.pdf' | relative_url }}">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>CV</span>
+              </a>
+
+              <a class="external-link button is-light" href="{{ '/assets/files/university-graduation-prize-2026.pdf' | relative_url }}">
+                <span class="icon"><i class="fas fa-award"></i></span>
+                <span>Award</span>
+              </a>
+
+              <a class="external-link button is-light" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
+                <span class="icon"><i class="ai ai-google-scholar"></i></span>
+                <span>Scholar</span>
+              </a>
+
+              <a class="external-link button is-light" href="https://github.com/{{ site.github_username }}">
+                <span class="icon"><i class="fab fa-github"></i></span>
+                <span>Github</span>
+              </a>
+
+              <a class="external-link button is-light" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+                <span class="icon"><i class="fab fa-linkedin"></i></span>
+                <span>Linkedin</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="hr"><div class="container"><hr></div></div>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <h2 class="title is-3">News</h2>
+      <div class="content">
+        <ul>
+          <li><b>Jul 2026–Present</b>: R&D contributions in the <a href="https://huggingface.co/">Hugging Face</a> open-source ecosystem, focused on <b>world models and embodied AI</b>, including LeRobot-related reproducibility, evaluation, benchmark compatibility, runtime correctness, and closed-loop evaluation. 🤗</li>
+          <li><b>Aug 2026</b>: <i>LAADAN-AC: Beyond Survival in Admissible Offline Treatment-Policy Learning</i> accepted for <b>oral presentation at ICATAS 2026</b>! 🎉</li>
+          <li><b>Aug 2026</b>: Awarded the <b>University Graduation Prize</b> by the Board of Examiners for the <b>highest achievement at Level 6</b> in BSc (Hons) Computer Science (Artificial Intelligence), University of Hertfordshire. 🏆</li>
+          <li><b>Aug 2026</b>: Released the preprint <i>Mitigating Shortcut Learning in Brain Tumour MRI Classification</i> on Zenodo. 📄</li>
+          <li><b>May 2026</b>: Graduated from the University of Hertfordshire with <b>First Class Honours</b> in BSc (Hons) Computer Science with Artificial Intelligence. 🎓</li>
+        </ul>
+      </div>
+
+      <br><br>
+      <h2 class="title is-3">Publications</h2>
+
+      <div class="publication-block columns">
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">
+              <a href="https://doi.org/10.5281/zenodo.21903347">Mitigating Shortcut Learning in Brain Tumour MRI Classification</a>
+            </h3>
+            <div class="publication-authors"><span class="author-me">Riya Basak</span></div>
+            <div class="publication-venue"><span>Preprint / Dissertation Research, 2026</span></div>
+            <p class="publication-description">
+              Proposed <b>Pathology-Focused Disentanglement (PFD)</b> and <b>Guided Semantic Token Evolution (GSTE)</b> for shortcut-learning mitigation without segmentation masks in a ResNet50V2–RViT hybrid, with leakage-aware preprocessing, systematic ablation analysis, Grad-CAM++, attention rollout, and predictive-uncertainty analysis.
+            </p>
+            <div class="publication-links buttons field has-addons">
+              <a class="external-link button is-small is-ghost" href="https://annyab.github.io/pfd-gste-research-article/">
+                <span class="icon"><i class="fas fa-globe-asia"></i></span><span>Project Page</span>
+              </a>
+              <a class="external-link button is-small is-ghost" href="https://doi.org/10.5281/zenodo.21903347">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span><span>Preprint</span>
+              </a>
+              <a class="external-link button is-small is-ghost" href="https://github.com/AnnyaB/HybridResNet50V2-RViT">
+                <span class="icon"><i class="fab fa-github"></i></span><span>Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-block columns">
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">
+              <a href="https://annyab.github.io/laadan-ac-website/">LAADAN-AC: Beyond Survival in Admissible Offline Treatment-Policy Learning</a>
+            </h3>
+            <div class="publication-authors">
+              <span class="author-me">Riya Basak</span>, <span>Manal Helal</span>
+            </div>
+            <div class="publication-venue">
+              <span>ICATAS 2026</span>
+              <span class="publication-venue-emph">Oral Presentation</span>
+            </div>
+            <p class="publication-description">
+              Extended an admissibility-aware offline actor-critic framework with hard action masking, twin critics, conservative critic regularisation, expert-policy regularisation, smoothness shaping, Lagrangian cost control, component ablations, safety-failure analysis, and a cross-domain portability check.
+            </p>
+            <div class="publication-links buttons field has-addons">
+              <a class="external-link button is-small is-ghost" href="https://annyab.github.io/laadan-ac-website/">
+                <span class="icon"><i class="fas fa-globe-asia"></i></span><span>Project Page</span>
+              </a>
+              <a class="external-link button is-small is-ghost" href="https://github.com/AnnyaB/laadan-ac">
+                <span class="icon"><i class="fab fa-github"></i></span><span>Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br><br>
+      <h2 class="title is-3">Research Interests</h2>
+      <div class="content">
+        <ul>
+          <li><b>World Models, Abstraction & Planning</b> — structured latent state, transferable dynamics, causal abstraction, and long-horizon reasoning.</li>
+          <li><b>Self-Supervised Predictive Learning</b> — latent predictive representations that capture controllable structure without reconstructing every observation detail.</li>
+          <li><b>Reliable & Controllable Intelligence</b> — uncertainty-aware planning, explicit constraints, counterfactual evaluation, and safe action selection.</li>
+          <li><b>Embodied Intelligence</b> — learning physical dynamics and transferable skills for agents that perceive, reason, plan, and act in changing environments.</li>
+        </ul>
+      </div>
+
+      <br><br>
+      <h2 class="title is-3">Selected Research Projects</h2>
+
+      <div class="publication-block columns">
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title"><a href="https://github.com/AnnyaB/Admissibility-Aware-Offline-Actor-Critic-Learning-for-Safer-ICU-Sepsis-Treatment-Decisions">Admissibility-Aware Offline Actor-Critic Learning for Safer ICU-Sepsis Treatment Decisions</a></h3>
+            <div class="publication-venue"><span>Safe Offline Deep Reinforcement Learning, 2026</span></div>
+            <p class="publication-description">Proposed <b>LAADAN-AC</b>, combining hard admissibility masking, twin critics, conservative critic regularisation, expert-policy regularisation, smoothness shaping, and Lagrangian cost control. Under the fixed benchmark protocol, the reported model achieved <b>0.7931 ± 0.0007</b> survival/return, <b>0.0000</b> inadmissibility, and <b>0.9525</b> expert-action match.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-block columns">
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">From World Models to Embodied Social Robots</h3>
+            <div class="publication-venue"><span>Embodied AI · Social Robotics · World Models · Ongoing</span></div>
+            <p class="publication-description">Building a LeWM- and DreamerV3-based world-model research stack for agents that reason over predicted physical and social futures. The project proposes <b>KCON (Kinetic Counterfactual Oversight Nexus)</b> as a compact candidate executive layer for failure-aware action selection using counterfactual futures, uncertainty/novelty handling, and minimal intervention.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-block columns">
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">Same Rules, New Worlds</h3>
+            <div class="publication-venue"><span>World Models · Causal Dynamics · Compositional Generalisation · Ongoing</span></div>
+            <p class="publication-description">Investigating why predictive models that perform well in-distribution can fail to transport learned dynamics across changes in context, appearance, embodiment, and long-horizon interaction. The current direction separates persistent state from transferable dynamics and evaluates compositional and interventional generalisation under controlled shifts and ablations.</p>
+          </div>
+        </div>
+      </div>
+
+      <br><br>
+      <h2 class="title is-3">Education</h2>
+      <div class="content">
+        <p><b>University of Hertfordshire</b> — BSc (Hons) Computer Science with Artificial Intelligence, <b>First Class Honours</b>, 2026<br>
+        Cumulative GPA: <b>4.38/4.50</b> · Level 6 GPA: <b>4.44/4.50</b><br>
+        <b>Ranked 1st in the Final Year Project across AI and all assessed streams</b> · <a href="{{ '/assets/img/fyp-final-report-93.png' | relative_url }}"><b>Project Report — 93%</b></a> · <a href="{{ '/assets/img/fyp-demo-viva-100.png' | relative_url }}"><b>Demo/Viva — 100%</b></a><br>
+        <b>Ranked 1st in the AI research-project module</b> · <a href="{{ '/assets/img/laadan-ac-coursework-91.png' | relative_url }}"><b>LAADAN-AC Coursework — 91%</b></a></p>
+      </div>
+
+      <br><br>
+      <h2 class="title is-3">Honours & Awards</h2>
+      <div class="content">
+        <p><b>University Graduation Prize</b>, University of Hertfordshire, 2026 🏆<br>
+        Awarded by the Board of Examiners for the <b>highest achievement at Level 6</b> in the BSc (Hons) Computer Science (Artificial Intelligence) programme.</p>
+      </div>
+
+      <br><br>
+      <h2 class="title is-3">Research Experience</h2>
+      <div class="content">
+        <ul>
+          <li><b>Hugging Face Open-Source Ecosystem — R&D Contributor · Jul 2026–Present</b><br>
+          Contributing to open-source <b>world models and embodied AI community work</b>, including LeRobot-related reproducibility, evaluation, benchmark compatibility, runtime correctness, regression testing, and closed-loop evaluation.</li>
+
+          <li><b>Mercor — Artificial Intelligence Researcher, Mathematical Reasoning · Sep–Nov 2025</b><br>
+          Investigated failure modes in AI mathematical reasoning by formalising assumptions, proof obligations, case splits, edge cases, and recurrent proof errors into structured evaluation criteria.</li>
+
+          <li><b>Cubble — Full Stack AI Intern, ML Systems Research & Evaluation · Aug–Sep 2025</b><br>
+          Built model-review, safety-flag, logging, and failure-analysis tools connecting frontend inspection with backend AI services and reproducible testing.</li>
+
+          <li><b>Cubble — Software Engineer Intern, Machine Learning Research · Jul–Aug 2025</b><br>
+          Compared ResNet50- and CLIP-based approaches for safe/unsafe image classification and achieved <b>97.5% accuracy on unseen images</b> with stable validation behaviour.</li>
+        </ul>
+      </div>
+
+      <br><br>
+      <h2 class="title is-3">Research Direction & Impact</h2>
+      <div class="content has-text-justified">
+        <p>My long-term goal is to develop AI systems that can <b>learn reusable models of how the world changes</b>, <b>separate causal mechanisms from nuisance variation</b>, <b>simulate plausible futures before acting</b>, and <b>remain controllable when predictions are uncertain or candidate actions are unsafe</b>. The research objective is not benchmark performance alone, but reliable generalisation and decision-making when environments, tasks, or embodiments change.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content footer-links has-text-centered">
+        <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i></a>
+      </div>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>This page was built based on <a href="https://github.com/keunhong/keunhong.github.io">this template</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
