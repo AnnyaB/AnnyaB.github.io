@@ -1,4 +1,4 @@
-# Riya Basak — Academic Homepage
+# Academic Homepage
 
 [**Homepage**](https://annyab.github.io/)
 
